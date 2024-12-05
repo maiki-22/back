@@ -129,7 +129,7 @@ class artistController extends Controller
         }
         //en caso de ser encontrado, valido los datos
         $validator = Validator::make($request->all(), [
-            'name' => 'required|max:255|unique:artist',
+            'name' => 'required|max:255',
             'image' => 'required',
             'followers' => 'required|integer'
         ]);
