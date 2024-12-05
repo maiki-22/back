@@ -6,7 +6,7 @@ use App\Http\Controllers\Api\artistController;
 use App\Http\Controllers\Api\trackController;
 use App\Http\Controllers\Api\albumController;
 use App\Http\Controllers\Api\playlistController;
-use App\Http\Controllers\Api\SearchController;
+use App\Http\Controllers\Api\searchController;
 
 //Ruta busqueda general
 Route::get('/search', [SearchController::class, 'search']);
